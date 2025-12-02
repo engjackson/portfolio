@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jacksonx Eng | Product & AI Leader",
+  title: "Jackson Eng | Product & AI Leader",
   description:
     "Portfolio of Jackson Eng – product & AI leader building data-informed, human-centered products across wellness, fintech, AI, and SaaS.",
 };
