@@ -54,7 +54,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="/EngJacksonProdMgrResume.pdf"
+            href="/EngJacksonProdMgrResume.pdf target=_blank"
             className="rounded-full bg-zinc-900 px-4 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-zinc-800 transition-colors"
           >
             Download Resume
