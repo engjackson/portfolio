@@ -17,15 +17,14 @@ import {
 const experience = [
   {
     company: "Jaarky (Consulting)",
-    role: "Product & AI Consultant",
-    period: "Jan 2025 – Present",
+    role: "Product & AI Builder",
+    period: "May 2024 – Present",
     summary:
-      "Providing product, AI, and technical consulting across learning platforms, hospitality, and real estate — helping teams ship cleaner experiences, improve engagement, and modernize digital presence.",
+      "Providing product, AI, and technical consulting across learning platforms, hospitality, and real estate helping teams ship cleaner experiences, improve engagement, and modernize digital presence.",
     bullets: [
-      "Led product delivery for AI-powered learning experiences for the Microsoft Teams AI Learning Community, shaping gamified modules and improving engagement.",
-      "Designed and shipped modern web experiences such as Ping’s NYC using Next.js, improving navigation, SEO, mobile performance, and analytics instrumentation.",
-      "Advised real estate clients on digital workflows, website templates, analytics, and technical integrations to improve lead capture and usability.",
-      "Provided fractional product consulting including discovery, roadmapping, UX improvements, and platform optimization."
+      "Lead execuitve discovery and workflow analysis to identify high-impact AI and automation opportunities, driving faster adoption and clearer ROI through defined success metrics and validated use cases.",
+      "Design end-toend solution architectures and roadmap sequencing to modernize customer and operations workflows, improving efficiency, usability, and change adoption across teams.",
+      "Build and launch 0->1 AI-enabled products, defining behavioral signals, feedback loops, and recommendation logic, reducing risk and accelerating learning prior to scale.",
     ],
     tags: ["AI", "Consulting", "Web Platforms"],
   },
@@ -229,10 +228,7 @@ export default function HomePage() {
                 transition={{ duration: 0.7, delay: 0.05 }}
                 className="mt-6 text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl text-zinc-900"
               >
-                Building data-informed, AI-powered products{" "}
-                <span className="bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-500 bg-clip-text text-transparent">
-                  that people actually love to use.
-                </span>
+                Building products that people love to use.
               </motion.h1>
 
               <motion.p
@@ -450,7 +446,7 @@ export default function HomePage() {
         {/* EXPERIENCE */}
         <Section
           id="experience"
-          title="Experience"
+          title="Recent Experiences"
           eyebrow="Career Timeline"
       
         >
